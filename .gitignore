@@ -1,0 +1,70 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+.env
+.venv
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribución / empaquetado
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Archivos de Flask
+instance/
+.webassets-cache
+flask_session/
+
+# Base de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos de configuración locales
+config.py
+config.ini
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de log
+logs/
+*.log
+
+# Archivos temporales
+.tmp/
+tmp/
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos del IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# Archivos generados por la aplicación
+uploads/
+downloads/
+media/
+static/uploads/
+
+# Dependencias de npm/yarn (si usas JavaScript/frontend)
+node_modules/
+package-lock.json
+yarn.lock
